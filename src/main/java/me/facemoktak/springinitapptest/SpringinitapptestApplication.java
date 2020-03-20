@@ -8,8 +8,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class SpringinitapptestApplication {
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(SpringinitapptestApplication.class)
-                .build()
+        new SpringApplicationBuilder()
+                .sources(SpringinitapptestApplication.class)
                 .run(args);
     }
 
