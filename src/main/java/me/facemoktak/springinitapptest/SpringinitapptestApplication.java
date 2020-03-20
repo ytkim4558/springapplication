@@ -8,11 +8,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class SpringinitapptestApplication {
 
     public static void main(String[] args) {
-        SpringApplication application = new SpringApplication(SpringinitapptestApplication.class);
-        application.run(args);
-//        new SpringApplicationBuilder()
-//                .main(SpringinitapptestApplication.class)
-//                .run(args);
+        new SpringApplicationBuilder(SpringinitapptestApplication.class)
+                .build()
+                .run(args);
     }
 
 }

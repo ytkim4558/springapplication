@@ -1,3 +1,0 @@
-====================
-YongTak Spring Boot ${application.version}
-====================
