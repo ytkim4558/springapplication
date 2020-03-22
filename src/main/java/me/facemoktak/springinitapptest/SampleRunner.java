@@ -17,6 +17,7 @@ public class SampleRunner implements ApplicationRunner {
         System.out.println("=========");
         System.out.println(yongtakProperties.getName());
         System.out.println(yongtakProperties.getAge());
+        System.out.println(yongtakProperties.getSessionTimeout());
         System.out.println("=========");
     }
 }
